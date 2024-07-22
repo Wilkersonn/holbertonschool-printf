@@ -31,7 +31,9 @@
 <br />
 <div align="center">
   <a href="https://github.com/Wilkersonn/holbertonschool-printf">
-    <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/79001/331125_630361.png" alt="Logo" width="160" height="160">
+    <img src="https://cdn.prod.website-files.com/6105315644a26f77912a1ada/63eea844ae4e3022154e2878_Holberton.png" 
+     alt="Logo" 
+     style="float: left; width: 750px; height: 130px; margin-right: 20px;">
   </a>
 
 <h3 align="center">Holberton _printf</h3>
