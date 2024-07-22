@@ -136,7 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Roadmap
+## FlowChart
 
 IN BUILD
 
@@ -148,7 +148,15 @@ IN BUILD
 ## Contributor
 
 - **Wilkersonn** - Primary contributor
-- **Zoy** - Secondary contributor
+- **ZoyKh4** - Secondary contributor
+
+## Contributor Activities
+
+### Wilkersonn
+![Wilkersonn's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Wilkersonn&bg_color=011627&color=79d3c3&line=c792ea&point=ffeb95&area=true&hide_border=false)
+
+### ZoyKh4
+![ZoyKh4's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ZoyKh4&bg_color=011627&color=79d3c3&line=c792ea&point=ffeb95&area=true&hide_border=false)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
