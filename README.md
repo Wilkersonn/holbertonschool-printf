@@ -85,8 +85,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cdn.prod.website-files.com/6105315644a26f77912a1ada/63eea844ae4e3022154e2878_Holberton.png)
-
 Lorem Ispum dolos de vitae je connait pas la suite mais tkt mon chef la 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,31 +102,22 @@ Lorem Ispum dolos de vitae je connait pas la suite mais tkt mon chef la
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Before you begin, we recommend that you:
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. **Read the Documentation**: Familiarize yourself with the project's documentation to understand its features and requirements.
+2. **Review the README**: read the README.md file for an overview of the project and setup instructions.
+3. **Ensure GCC is Installed**: Make sure you have GCC (GNU Compiler Collection) installed on your system for compiling the code.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Make sure to ⭐ the project! (Just kidding, but it would be cool 😎)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Wilkersonn/holbertonschool-printf.git
    ```
-3. Install NPM packages
+3. Navigate to the project directory!
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   cd holbertonschool-printf
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,7 +127,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+In this section, you'll find various examples demonstrating how to use `_printf`. This includes code snippets, screenshots, and demos to help illustrate different use cases and functionalities of the `_printf` implementation. For more detailed examples and additional resources, feel free to explore the links provided.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -149,30 +138,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+IN BUILD
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributor
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- **Wilkersonn** - Primary contributor
+- **Zoy** - Secondary contributor
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,20 +166,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Feel free to add me on Discord: wilkersondereretour
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
