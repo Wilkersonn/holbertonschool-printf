@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Wilkersonn/holbertonschool-printf">
-    <img src="https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/79001/331125_630361.png" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">project_title</h3>
