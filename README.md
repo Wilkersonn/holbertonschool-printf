@@ -34,10 +34,10 @@
     <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/79001/331125_630361.png" alt="Logo" width="160" height="160">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Holberton _printf</h3>
 
   <p align="center">
-    project_description
+    This project, undertaken for Holberton School, involves creating our own implementation of the `printf` function in C. The goal is to replicate `printf` functionality to gain a deeper understanding of formatting and handling variadic arguments.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
