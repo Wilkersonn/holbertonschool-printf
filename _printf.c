@@ -26,6 +26,12 @@ int _printf(const char *format, ...)
 		if (*p == '%')
 		{
 			p++;
+			if (*p == '\0')
+			{
+				write(1, "%", 1);
+				count++;
+				break;
+			}
 			switch (*p)
 			{
 				case 'c':
@@ -54,6 +60,7 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
+
 
 /**
  * print_char - Prints a character.
