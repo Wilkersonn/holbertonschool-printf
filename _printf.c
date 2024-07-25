@@ -123,10 +123,11 @@ int print_percent(void)
  */
 int print_int(va_list args)
 {
-	int n = va_arg(args, int);
+	long int n = va_arg(args, int);
 	int count = 0;
 	char buffer[12];
-	int i = 0, j, is_negative = 0;
+	int i = 0;
+	int is_negative = 0;
 
 	if (n < 0)
 	{
@@ -134,17 +135,24 @@ int print_int(va_list args)
 		n = -n;
 	}
 
-	do {
-		buffer[i++] = (n % 10) + '0';
-		n /= 10;
-	} while (n > 0);
+	if (n == 0)
+		buffer[i++] = '0';
+	else
+	{
+		while (n > 0)
+		{
+			buffer[i++] = (n % 10) + '0';
+			n /= 10;
+		}
+	}
 
 	if (is_negative)
 		buffer[i++] = '-';
 
-	for (j = i - 1; j >= 0; j--)
+	while (i > 0)
 	{
-		write(1, &buffer[j], 1);
+		i--;
+		write(1, &buffer[i], 1);
 		count++;
 	}
 
