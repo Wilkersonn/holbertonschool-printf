@@ -1,4 +1,8 @@
 <!-- PROJECT SHIELDS -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=100&section=header&fontSize=24&fontColor=000000&animation=fadeIn&reversal=true" width="100%">
+</p>
+
 <div align="center">
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -212,12 +216,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Feel free to add me on Discord: wilkersondereretour
 
+
+<p align="right">(<a href="#readme-top" style="color: #FF0000;">back to top</a>)</p>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=100&section=footer&fontSize=24&fontColor=000000&animation=fadeIn" width="100%">
 </p>
-
-
-<p align="right">(<a href="#readme-top" style="color: #FF0000;">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
