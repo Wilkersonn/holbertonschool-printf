@@ -5,6 +5,7 @@
 int print_char(va_list args);
 int print_string(va_list args);
 int print_percent(void);
+int print_int(va_list args);
 
 /**
  * _printf - Produces output according to a format.
@@ -41,6 +42,10 @@ int _printf(const char *format, ...)
 					break;
 				case 's':
 					count += print_string(args);
+					break;
+				case 'd':
+				case 'i':
+					count += print_int(args);
 					break;
 				case '%':
 					count += print_percent();
@@ -108,4 +113,40 @@ int print_string(va_list args)
 int print_percent(void)
 {
 	return (write(1, "%", 1));
+}
+
+/**
+ * print_int - Prints an integer.
+ * @args: The va_list containing the integer to print.
+ *
+ * Return: The number of characters printed.
+ */
+int print_int(va_list args)
+{
+	int n = va_arg(args, int);
+	int count = 0;
+	char buffer[12];
+	int i = 0, j, is_negative = 0;
+
+	if (n < 0)
+	{
+		is_negative = 1;
+		n = -n;
+	}
+
+	do {
+		buffer[i++] = (n % 10) + '0';
+		n /= 10;
+	} while (n > 0);
+
+	if (is_negative)
+		buffer[i++] = '-';
+
+	for (j = i - 1; j >= 0; j--)
+	{
+		write(1, &buffer[j], 1);
+		count++;
+	}
+
+	return (count);
 }
