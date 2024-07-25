@@ -88,7 +88,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Lorem Ispum dolos de vitae je connait pas la suite mais tkt mon chef la 
+This project was developed by two Holberton School students, Zoyh and Wilkerson.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +122,7 @@ Before you begin, we recommend that you:
    ```sh
    cd holbertonschool-printf
    ```
+4. Go check the "exemple.c" to see how the _printf function can be use !
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +142,79 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## FlowChart
 
-IN BUILD
+```
+┌─────────────────┐
+│      Start      │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐    Yes   ┌─────────────────┐
+│  format == NULL?├─────────►│   Return -1     │
+└────────┬────────┘          └─────────────────┘
+         │ No
+         ▼
+┌─────────────────┐
+│ Initialize      │
+│ va_list & count │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Loop through   │
+│  format string  │◄─────────────────────────┐
+└────────┬────────┘                          │
+         │                                   │
+         ▼                                   │
+┌─────────────────┐   Yes   ┌───────────────┐│
+│ Is char '%'?    ├────────►│ Next char '\0'?│
+└────────┬────────┘         └───────┬───────┘│
+         │ No                      │ No      │
+         │                         ▼         │
+         │                 ┌───────────────┐ │
+         │                 │ Check specifier│ │
+         │                 └───────┬───────┘ │
+         │                         │         │
+         │           ┌─────────────┴───────┐ │
+         │           ▼             ▼       ▼ │
+         │    ┌──────────┐  ┌──────────┐ ┌──────────┐
+         │    │    %c    │  │   %s     │ │  %d/%i   │
+         │    └────┬─────┘  └────┬─────┘ └────┬─────┘
+         │         │            │           │
+         │         ▼            ▼           ▼
+         │    ┌──────────┐  ┌──────────┐ ┌──────────┐
+         │    │print_char│  │print_str │ │print_int │
+         │    └────┬─────┘  └────┬─────┘ └────┬─────┘
+         │         │            │           │
+         │         └────────────┴───────────┘
+         │                     │
+         ▼                     │
+┌─────────────────┐            │
+│  Print char &   │            │
+│ increment count │            │
+└────────┬────────┘            │
+         │◄───────────────────┐│
+         │                    ││
+         ▼                    ││
+┌─────────────────┐    No     ││
+│   End of format ├───────────┘│
+│     string?     │            │
+└────────┬────────┘            │
+         │ Yes                 │
+         ▼                     │
+┌─────────────────┐            │
+│   End va_list   │            │
+└────────┬────────┘            │
+         │                     │
+         ▼                     │
+┌─────────────────┐            │
+│  Return count   │            │
+└────────┬────────┘            │
+         │                     │
+         ▼                     │
+┌─────────────────┐            │
+│      End        │            │
+└─────────────────┘            │
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
