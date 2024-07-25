@@ -19,6 +19,9 @@ int _printf(const char *format, ...)
 	int count = 0;
 	const char *p;
 
+	if (format == NULL)
+		return (-1);
+
 	va_start(args, format);
 
 	for (p = format; *p != '\0'; p++)
@@ -28,9 +31,8 @@ int _printf(const char *format, ...)
 			p++;
 			if (*p == '\0')
 			{
-				write(1, "%", 1);
-				count++;
-				break;
+				va_end(args);
+				return (-1);
 			}
 			switch (*p)
 			{
@@ -60,7 +62,6 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
-
 
 /**
  * print_char - Prints a character.
