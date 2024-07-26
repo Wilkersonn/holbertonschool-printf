@@ -35,26 +35,19 @@ int _printf(const char *format, ...)
 				va_end(args);
 				return (-1);
 			}
-			switch (*p)
+			if (*p == 'c')
+				count += print_char(args);
+			else if (*p == 's')
+				count += print_string(args);
+			else if (*p == 'd' || *p == 'i')
+				count += print_int(args);
+			else if (*p == '%')
+				count += print_percent();
+			else
 			{
-				case 'c':
-					count += print_char(args);
-					break;
-				case 's':
-					count += print_string(args);
-					break;
-				case 'd':
-				case 'i':
-					count += print_int(args);
-					break;
-				case '%':
-					count += print_percent();
-					break;
-				default:
-					write(1, "%", 1);
-					write(1, p, 1);
-					count += 2;
-					break;
+				write(1, "%", 1);
+				write(1, p, 1);
+				count += 2;
 			}
 		}
 		else
@@ -67,6 +60,7 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
+
 
 /**
  * print_char - Prints a character.
